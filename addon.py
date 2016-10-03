@@ -3,7 +3,6 @@
 
 # Импортируем нужные модули
 import xbmcgui
-
 import datetime
 import time
 import urllib2
@@ -14,7 +13,7 @@ import xbmcaddon
 ACTION_PREVIOUS_MENU = 10 # По умолчанию - ESC
 ACTION_NAV_BACK = 92 # По умолчанию - Backspace
 
-# Ссылка напубличный гугл календарь. Формат:
+# Ссылка на публичный гугл календарь. Формат:
 # "https://calendar.google.com/calendar/ical/******/basic.ics"
 URL = ""
 
