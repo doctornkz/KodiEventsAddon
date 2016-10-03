@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.events" name="Events" version="0.0.7" provider-name="doctornkz">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <disclaimer>Beta version</disclaimer>
+        <summary lang="en">Display Events from iCal Google Calendar</summary>
+        <description lang="en">Events plugin shows Events grouped by date</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <language/>
+        <website>https://github.com/doctornkz</website>
+        <email>doctornkz@yandex.ru</email>
+    </extension>
+</addon>
